@@ -3,7 +3,7 @@ from datetime import datetime
 from tkinter import Tk, Label, Button, BOTTOM, Text, DISABLED
 from tkinter.ttk import Combobox
 
-from configurations import TIME_FRAME_DICT, TIMEFRAME_LABLE_TEXT, TERM_TEXT
+from main_package.configurations import TIME_FRAME_DICT, TIMEFRAME_LABLE_TEXT, TERM_TEXT
 from twitter_api_handler.twiter_api_handler import TwitterAPIHandler
 
 

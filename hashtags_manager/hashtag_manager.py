@@ -3,7 +3,7 @@ from datetime import datetime
 import matplotlib.pyplot as plt
 import pandas as pd
 
-from configurations import COUNT, KEYWORD, LAST_APPEARANCE_DATE
+from main_package.configurations import COUNT, KEYWORD, LAST_APPEARANCE_DATE
 
 
 class HashTagManager:

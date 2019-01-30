@@ -5,7 +5,7 @@ from time import sleep
 import matplotlib.pyplot as plt
 from tweepy import StreamListener
 
-from configurations import HASHTAGS, ENTITIES, TIMESTAMP, TEXT, LAST_APPEARANCE_DATE
+from main_package.configurations import HASHTAGS, ENTITIES, TIMESTAMP, TEXT, LAST_APPEARANCE_DATE
 from hashtags_manager.hashtag_manager import HashTagManager
 from twitter_api_handler.twiter_api_handler_conf import REACHED_API_CALLS_LIMIT_ERROR
 
